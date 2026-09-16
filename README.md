@@ -64,6 +64,50 @@ frequency, harmonics, attack, and decay characteristics.
 | 2nd | B3 | 246.94 Hz |
 | 1st | E4 | 329.63 Hz |
 
+
+## 🧠 Technical Concepts
+
+- Digital Signal Processing
+- Autocorrelation-based pitch detection
+- Fundamental frequency estimation
+- Frequency-to-note conversion
+- Harmonic synthesis
+- Attack and decay modeling
+- Real-time audio processing
+- Data visualization
+
+## 🏗️ Project Architecture
+
+Audio Input
+     ↓
+Signal Acquisition
+     ↓
+Signal Processing
+     ↓
+Autocorrelation
+     ↓
+Fundamental Frequency
+     ↓
+Note Identification
+     ↓
+Tuning Analysis
+     ↓
+Visualization
+
+## 🔮 Future Enhancements
+
+* Improve pitch detection accuracy in noisy environments.
+* Support alternate guitar tunings such as Drop D, Open G, and DADGAD.
+* Add frequency spectrum and harmonic analysis.
+* Add chord detection and chord identification.
+* Provide more detailed real-time tuning feedback.
+* Add recording and playback functionality.
+* Improve guitar sound synthesis using more advanced physical modeling techniques.
+* Add MIDI output for detected notes.
+* Develop a web-based dashboard for remote visualization and analysis.
+* Optimize real-time signal processing for lower latency and improved performance.
+
+
 ## 📂 Project Structure
 
 ```text
@@ -73,3 +117,5 @@ Guitar-Analyzer/
 ├── requirements.txt
 ├── README.md
 └── assets/
+
+
