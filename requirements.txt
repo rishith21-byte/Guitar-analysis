@@ -1,0 +1,6 @@
+numpy
+PySide6
+matplotlib
+sounddevice
+
+These are the python libararies.
